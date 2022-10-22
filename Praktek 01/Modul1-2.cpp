@@ -4,7 +4,7 @@ using namespace std;
 
 int main (){
 	char nama[21]; 
-	char stambuk[7];
+	int stambuk;
 	char alamat[26];
 	short umur;
 	
