@@ -18,10 +18,12 @@ int main(){
 		return false;
 		
 	} else {
+		bus = siswa / 30;
+		minibus = siswa / 7;
 		
-		cout << "Jumlah bus : " << bus +1;
-		cout << "Jumlah minibus : 0 ";
-		cout << "Siswa Tertinggal : 0";
+		cout << "Jumlah bus : " << bus << "		Jumlah Siswa : " << bus * 30 << "\n";
+		cout << "Jumlah minibus : " << minibus<<"		Jumlah Siswa : "<< minibus * 7 << "\n";
+		cout << "Siswa Tertinggal : " << siswa % 7;
 		return false;
 	}
 		
